@@ -55,8 +55,9 @@ body {
 	width: 900px;
 }
 .header {
-	border: 1pt solid blue;
-	height: 100px;
+	height: 80px;
+	background: rgb(1, 1, 32);
+	color: rgb(168, 2, 2);
 	display: flex;
 	justify-content: center;
 	align-items:center;
