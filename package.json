@@ -1,0 +1,19 @@
+{
+  "name": "snippets",
+  "version": "1.0.0",
+  "description": "Collection of snippets",
+  "main": "index.js",
+  "scripts": {
+    "test": "tester"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duckets615/Snippets.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duckets615/Snippets/issues"
+  },
+  "homepage": "https://github.com/duckets615/Snippets#readme"
+}
