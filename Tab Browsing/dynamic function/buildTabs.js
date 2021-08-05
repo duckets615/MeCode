@@ -13,6 +13,7 @@ const buildTabs = links => {
         tab.addEventListener('click', (e) => {
             let data = e.target.dataset.tab;           
             document.querySelector(`.tab-content[data-tab="${data}"]`).classList.toggle('show');
+            e.target.classList.toggle('selected');
         });
         i++;
         num--;
