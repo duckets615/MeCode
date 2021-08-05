@@ -54,7 +54,7 @@ body {
 	border: 1pt solid black;
 	width: 900px;
 }
-/* .header {
+.header {
 	height: 80px;
 	background: rgb(1, 1, 32);
 	color: rgb(168, 2, 2);
@@ -62,10 +62,10 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items:center;
-} */
-/* h1 {
+}
+h1 {
 	font-size: 3rem;
-} */
+}
 .tab-links {
 	display: flex;
 	justify-content: space-around;
@@ -102,3 +102,4 @@ body {
 	 background:rgb(1,1,32);
 	 color: rgb(168, 2, 2);
  }
+

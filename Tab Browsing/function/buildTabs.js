@@ -23,6 +23,9 @@ const buildTabs = num => {
     tabLink4.textContent = 'Tab 4';
     // Assemble and Return
     tabLinks.append(tabLink1,tabLink2,tabLink3,tabLink4);
+
+    document.querySelectorAll(tab-link).forEach(tab => tab.addEventListener('click', () => console.log('clicker')));
+
     return tabLinks;
 };
 
