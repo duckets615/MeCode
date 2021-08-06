@@ -1,0 +1,38 @@
+
+=========  STANDARD javascript  =========
+
+standard javascript
+as of HTML 5 type=text/javascript is default. There is no need to define inside tag;
+
+<script src='.location-of-js-file.js'></script>
+
+
+=========  JS WITH ASYNC TAG  =========
+
+The async attribute is a boolean attribute.
+When present, it specifies that the script will be executed asynchronously as soon as it is available.
+Note: The async attribute is only for external scripts (and should only be used if the src attribute is present).
+If async is present: The script is executed asynchronously with the rest of the page (the script will be executed while the page continues the parsing)
+If async is not present and defer is present: The script is executed when the page has finished parsing
+If neither async or defer is present: The script is fetched and executed immediately, before the browser continues parsing the page
+
+<script async="async" src='.location-of-js-file.js'></script>
+or
+<script src='.location-of-js-file.js' async></script>
+
+
+=========  JS WITH DEFER  =========
+
+If defer is present: The script is executed when the page has finished parsing
+Note: The defer attribute is only for external scripts (and should only be used if the src attribute is present).
+
+<script defer="defer" src='.location-of-js-file.js'/>
+or 
+<script src='.location-of-js-file.js' defer/>
+
+
+=========  EXTERNAL CSS  =========
+<link rel='stylesheet' type='text/css' href='./tabs.css'>
+
+** link tag has no closing tag, only attributes **
+
