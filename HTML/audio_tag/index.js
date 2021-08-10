@@ -24,11 +24,12 @@ arrow.forEach(arrow => arrow.addEventListener('click', (e) => nextSong(e)));
 
 function doStuff(e) {
     const song = document.querySelector(`audio[data-key="${playlist[current]}"`);
-    switch(e.target.textContent) {
-        case('Start'): song.play();
-        case('Pause'): song.pause();
-        default: song.currentTime = 4000
-    }    
+    const text = e.target.textContent;
+    
+    if (text === 'Play') song.play();
+    else if (text === 'Pause') song.pause();
+    else song.currentTime = 4000;
+
     box.forEach(box => box.classList.remove('selected', 'selectedStop'));
     e.target.textContent === 'Stop' ? e.target.classList.add('selectedStop') : e.target.classList.add('selected');
 } 
