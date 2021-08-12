@@ -1,0 +1,5 @@
+- Rotation by default will be centered on the middle of an element;
+-ROTATION-ORIGIN - allows you to set rotation point
+    - 50% is default, the center
+    - 100% will be the far right of the x-axis;
+    - can also specify with: top left, left, right, top right, center, ect.
